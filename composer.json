@@ -1,5 +1,5 @@
 {
-    "name": "marcos/package",
+    "name": "axitech/digitalcep",
     "description": "Busca de CEP Online",
     "type": "project",
     "license": "MIT",
@@ -18,7 +18,7 @@
             "Search": "src/"
         },
         "psr-4": {
-            "Marcos\\Package\\": "src/"
+            "Axitech\\Digitalcep\\": "src/"
         }
     }
 }

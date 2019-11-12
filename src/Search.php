@@ -1,5 +1,5 @@
 <?php 
-namespace Marcos\Package;
+namespace Axitech\Digitalcep;
 
 /**
  * 
@@ -14,6 +14,6 @@ class Search
 
 		$get = file_get_contents($this->url . $zipCode . '/json');
 
-		return (array) json_encode($get);
+		return (array) json_decode($get);
 	}
 }
